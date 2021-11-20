@@ -62,3 +62,14 @@ Sample config file:
     "PROCESS_ON_PROJECT_LEVEL": true
 }
 ```
+
+## Common Issues and Workarounds
+
+- Sometimes, after making some changes to the script, then running it for the first time, an error `Item not found` is returned. I don't know the root cause for this. Somehow the script is also trying update tasks that are already archived? If you know how to solve this let me know. The easiest workaround to it is to simply run the script again.
+- When the script is active, trying to reorder tasks in the Todoist app suddenly becomes clunky. Changes you make don't immediately reflect and you have to reorder them again a few times. This doesn't render the app completely useless, but it is noticeable and can get mildly annoying.
+
+## Support
+
+If you liked what I made please consider buying me a coffee!
+
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="ryanarnold" data-color="#FF5F5F" data-emoji=""  data-font="Arial" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
