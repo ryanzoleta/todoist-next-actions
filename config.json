@@ -1,5 +1,6 @@
 {
     "API_KEY": "",
     "PROJECT_LABEL_TEXT": "project",
-    "ACTIVE_LABEL_TEXT": "active"
+    "ACTIVE_LABEL_TEXT": "active",
+    "PROCESS_ON_PROJECT_LEVEL": false
 }
