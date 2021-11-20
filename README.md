@@ -1,6 +1,12 @@
 # Todoist Next Actions
 
-This is a python script that allows Todoist to be able to show the "Next Actions" in each of the Projects in Todoist, a core concept in David Allen's productivity system described in his book, Getting Things Done (see summary of the system [here](https://hamberg.no/gtd/)).
+This is a python script that allows Todoist to be able to show the "Next Actions" in each of the Projects in Todoist, a core concept in David Allen's productivity system described in his book, [Getting Things Done](https://hamberg.no/gtd/)).
+
+At its core, the script is very simple.
+
+It adds an **@active** label to the topmost task of every project.
+
+Alternatively, you can set a task as **@project**, and then the script will add **@active to** whatever is the topmost subtask in *that* task.
 
 **Demo where Todoist Projects are treated as "Projects"**
 
@@ -31,11 +37,11 @@ https://user-images.githubusercontent.com/18186677/142727622-f7de6898-504b-4043-
 
 4. Once all set, you can now run the script itself.
 
-You can either double click on `main.py` or run it via the command line:
+    You can either double click on `main.py` or run it via the command line:
 
-```
-python main.py
-```
+    ```
+    python main.py
+    ```
 
 ## Running on a remote server
 
