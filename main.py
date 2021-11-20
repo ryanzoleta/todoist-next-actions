@@ -44,11 +44,12 @@ if __name__ == '__main__':
 
     # Retrieve the project and active labels set by the Todoist user
 
-    try:
-        project_label = get_label_by_name(api.state['labels'], PROJECT_LABEL_TEXT)
-    except IndexError:
-        logging.info('The label "%s" does not exist in your Todoist!' % (PROJECT_LABEL_TEXT))
-        exit()
+    if not PROCESS_ON_PROJECT_LEVEL:
+        try:
+            project_label = get_label_by_name(api.state['labels'], PROJECT_LABEL_TEXT)
+        except IndexError:
+            logging.info('The label "%s" does not exist in your Todoist!' % (PROJECT_LABEL_TEXT))
+            exit()
     
     try:
         active_label = get_label_by_name(api.state['labels'], ACTIVE_LABEL_TEXT)
