@@ -72,4 +72,3 @@ Sample config file:
 
 If you liked what I made please consider buying me a coffee!
 
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="ryanarnold" data-color="#FF5F5F" data-emoji=""  data-font="Arial" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
