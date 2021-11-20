@@ -72,4 +72,4 @@ Sample config file:
 
 If you liked what I made please consider buying me a coffee!
 
-[<img width="545" alt="red-button" width="100" src="https://user-images.githubusercontent.com/18186677/142728217-5ddcd972-00b7-458a-a44b-617379257e71.png">](https://www.buymeacoffee.com/dashboard)
+[<img alt="Buy-Me-Coffee" src="https://user-images.githubusercontent.com/18186677/142728217-5ddcd972-00b7-458a-a44b-617379257e71.png" width="200">](https://www.buymeacoffee.com/dashboard)
