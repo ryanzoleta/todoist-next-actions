@@ -2,7 +2,13 @@
 
 This is a python script that allows Todoist to be able to show the "Next Actions" in each of the Projects in Todoist, a core concept in David Allen's productivity system described in his book, Getting Things Done (see summary of the system [here](https://hamberg.no/gtd/)).
 
-https://user-images.githubusercontent.com/18186677/142727445-c2c118bf-7798-4750-896c-5a06a7f13333.mp4
+**Demo where Todoist Projects are treated as "Projects"**
+
+https://user-images.githubusercontent.com/18186677/142727617-c50c4a55-ded0-4bfb-93d9-5a8af5873eb0.mp4
+
+**Demo where Todoist Task Items are treated as "Projects"**
+
+https://user-images.githubusercontent.com/18186677/142727622-f7de6898-504b-4043-a3c9-265f8d9dc63a.mp4
 
 ## Running Locally
 
