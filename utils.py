@@ -4,7 +4,17 @@ def get_label_by_name(labels_list, name):
 
 
 def get_project_subtasks(project_id, all_items):
+    '''
+    This function differs from get_project_tasks in that it only processes
+    **items** instead of **projects**.
+
+    This would only be ever used if the configuration PROCESS_ON_PROJECT_LEVEL
+    was set to false.
+    '''
     return [i for i in all_items if project_id == i['parent_id'] and i['checked'] == 0 and i['is_deleted'] == 0]
+
+def get_project_tasks(project_id, all_items):
+    return [i for i in all_items if project_id == i['project_id'] and i['checked'] == 0 and i['is_deleted'] == 0]
 
 
 def get_topmost_subtask(project_subtasks):
